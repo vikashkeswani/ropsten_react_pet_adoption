@@ -27,7 +27,7 @@ jobs:
     - name: Installing Node
       uses: actions/setup-node@v2-beta
       with:
-          version: 12
+          node-version: 12
       
   
     - name: Installing node modules
